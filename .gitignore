@@ -3,4 +3,7 @@
 .RData
 .Ruserdata
 
+*.html
+**/*_cache/*
 data/*
+graphics/*
