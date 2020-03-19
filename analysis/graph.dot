@@ -1,0 +1,13 @@
+digraph model_flow {
+  
+  graph [overlap=true, fontsize=10, layout=dot, rankdir=LR]
+  node [shape=box,fontname=Helvetica]
+  A [label='BMD yr0'];B [label='TSS yr0']
+  C [label='BMD yr1'];D [label='TSS yr1']
+  E [label='BMD yr2'];F [label='TSS yr2']
+  
+   A->C A->D
+   B->C B->D
+   C->E C->F
+   D->E D->F
+}
